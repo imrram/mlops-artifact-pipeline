@@ -1,5 +1,3 @@
-import json
-import joblib
 from src.train import load_config, train_model
 from sklearn.datasets import load_digits
 from sklearn.linear_model import LogisticRegression
